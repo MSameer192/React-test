@@ -22,7 +22,7 @@ function CustomerModalBody({ closeModal, extraObject }) {
   const [loader, setLoader] = useState(false);
 
   const [imageUrl, setImageUrl] = useState(
-    extraObject.customer.avatar ? extraObject.customer.avatar : null
+    extraObject?.customer?.avatar ? extraObject?.customer?.avatar : null
   );
 
   console.log("imageUrl", imageUrl);
