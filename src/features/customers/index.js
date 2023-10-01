@@ -69,7 +69,7 @@ function Customers() {
       })
     );
   };
-  
+
   const categoryColum = [
     {
       header: "",
@@ -114,7 +114,15 @@ function Customers() {
           >
             Edit
           </button>
-
+        </>
+      ),
+    },
+    {
+      header: "",
+      accessorKey: "",
+      id: "actions",
+      cell: ({ row }) => (
+        <>
           <span className="text-white">...</span>
           <button
             className="py-1 px-6 ms-5 rounded-lg text-[#D80000] bg-[#D80000] bg-opacity-40 hover:bg-opacity-60 text-sm"
